@@ -1,0 +1,21 @@
+
+
+public class GreeterTest {
+public Greeter greeter;
+	@Before	
+	public void test() {
+		greeter=new Greeter();
+	}
+	@SuppressWarnings("deprecation")
+	@Test
+	public void greetShouldIncluedWhoIsGreated()
+	{
+		String someone="World";
+		assertThat(greeter.greet(someone),containsString(someone));
+	}
+	private Matcher<? super String> containsString(String someone) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

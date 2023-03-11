@@ -1,0 +1,23 @@
+import static org.junit.Assert.*;
+
+import org.hamcrest.Matcher;
+import org.junit.Test;
+
+public class GreeterTest {
+public Greeter greeter;
+	@Before	
+	public void test() {
+		greeter=new Greeter();
+	}
+	@Test
+	public void greetShouldIncluedWhoIsGreated()
+	{
+		String someone="World";
+		assertThat(greeter.greet(someone),containsString(someone));
+	}
+	private Matcher<? super String> containsString(String someone) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

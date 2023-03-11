@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+		<item value="git.eclipse.org"/>
+		<item value="localhost"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="http://localhost:5000/gitserver/butler/Test-Maven"/>
+		<item value="http://localhost:5000/gitserver/butler/First-Maven"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\Kiran\git\First-Maven\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\Kiran\git\Test-Maven\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\Kiran\Eclipse_Projects\FirstMavevnProject\first.maven\Test-Maven\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+</section>
